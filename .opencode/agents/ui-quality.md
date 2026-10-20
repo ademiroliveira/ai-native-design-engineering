@@ -45,9 +45,7 @@ If the acceptance criteria or a way to run the UI are missing, say so at the top
 
 ## Severity
 
-- **Blocker** — a user can't complete the task, loses data, or is locked out (including keyboard and screen-reader users).
-- **Major** — the task works but is confusing, misses an acceptance criterion, fails WCAG 2.2 AA, or departs from the design system.
-- **Minor** — polish that doesn't affect the task.
+Rate each finding Blocker, Major or Minor, using the scale in `docs/WORKFLOW.md`.
 
 ## Verdict
 

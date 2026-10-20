@@ -20,4 +20,4 @@ Review the rendered interface, not source code alone. This skill covers visual c
 
 - Record observations separately from assumptions.
 - Prioritise by user impact and confidence. Don't recommend changes for personal preference.
-- Report with the status values in `docs/WORKFLOW.md` and the Blocker / Major / Minor scale used by the UI Quality agent.
+- Report with the status values and severity scale in `docs/WORKFLOW.md`.

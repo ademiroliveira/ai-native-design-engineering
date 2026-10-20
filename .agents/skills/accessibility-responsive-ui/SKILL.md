@@ -101,10 +101,7 @@ Status values (from `docs/WORKFLOW.md`):
 - **Partially verified** — only some states or viewports checked, automated checks only, or code reading only.
 - **Unverified** — not checked. Say why.
 
-Severity:
-- **Blocker** — someone using a keyboard, screen reader, zoom or a small screen can't complete the task.
-- **Major** — the task is possible but difficult, or a WCAG AA criterion fails without blocking the task.
-- **Minor** — friction that doesn't stop the task.
+Severity uses the Blocker / Major / Minor scale in `docs/WORKFLOW.md`. A failure that stops someone using a keyboard, screen reader, zoom or a small screen from completing the task is a Blocker, not a Major.
 
 ```markdown
 ### Accessibility & responsive review — <component or flow>
