@@ -1,7 +1,9 @@
 # Critique UI
 
-Review the rendered experience against product intent and available design evidence.
+Critique the rendered experience against the product intent and any design reference.
 
-Check hierarchy, layout, typography, components, states, accessibility, responsive behaviour, interaction feedback and consistency with the design system.
+- Visual craft (hierarchy, layout, spacing, typography, design-system consistency): `.agents/skills/visual-qa/SKILL.md`
+- Accessibility and responsive behaviour: `.agents/skills/accessibility-responsive-ui/SKILL.md`
+- Interaction feedback: every action gets a visible response, and the next step is clear.
 
-Separate observations from assumptions. Prioritise issues by user impact and confidence. Do not recommend visual changes merely for personal preference.
+Report the findings as one list, highest user impact first.

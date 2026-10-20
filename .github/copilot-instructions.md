@@ -18,3 +18,5 @@ Before changing code or configuration:
 Figma MCP is optional. Treat Figma, screenshots, specs, existing UI, code, Storybook, browser output and documentation as interchangeable sources of design context.
 
 Never claim tests, browser checks or visual validation were run unless evidence exists.
+
+Use the commands and paths in the Project specifics section of `AGENTS.md`. When opening a pull request, fill in `.github/pull_request_template.md`.
