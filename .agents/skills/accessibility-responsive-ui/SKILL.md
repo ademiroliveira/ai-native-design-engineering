@@ -96,12 +96,7 @@ A clean automated scan means "no automated violations found", not "accessible". 
 
 ## Report
 
-Status values (from `docs/WORKFLOW.md`):
-- **Verified** — observed in the running UI, or asserted by a test that ran.
-- **Partially verified** — only some states or viewports checked, automated checks only, or code reading only.
-- **Unverified** — not checked. Say why.
-
-Severity uses the Blocker / Major / Minor scale in `docs/WORKFLOW.md`. A failure that stops someone using a keyboard, screen reader, zoom or a small screen from completing the task is a Blocker, not a Major.
+Use the status values and severity scale in `docs/WORKFLOW.md`. A failure that stops someone using a keyboard, screen reader, zoom or a small screen from completing the task is a Blocker, not a Major.
 
 ```markdown
 ### Accessibility & responsive review — <component or flow>

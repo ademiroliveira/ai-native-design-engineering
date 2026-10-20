@@ -111,9 +111,9 @@ Possible evidence:
 
 Do not substitute an assumed tool for unavailable evidence. Clearly distinguish:
 
-- **Verified** — directly observed or tested
-- **Partially verified** — some relevant checks completed
-- **Unverified** — the environment did not permit the check
+- **Verified** — directly observed in the running product, or asserted by a test that ran
+- **Partially verified** — some relevant checks completed: only some states or viewports, automated checks only, or code reading only
+- **Unverified** — not checked; say why (for example, the environment did not permit the check)
 
 Rate each problem found:
 
