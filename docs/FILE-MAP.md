@@ -3,7 +3,8 @@
 ## Shared guidance
 - `AGENTS.md` — repository-wide operating rules
 - `.agents/skills/` — reusable, tool-agnostic skills
-- `docs/WORKFLOW.md` — context-first workflow
+- `docs/WORKFLOW.md` — context-first workflow, status values and severity scale
+- `.github/pull_request_template.md` — PR description: intent, context, decisions, evidence, open questions
 
 ## GitHub Copilot
 - `.github/copilot-instructions.md` — Copilot repository guidance

@@ -1,7 +1,5 @@
 # Verify UI
 
-Verify the implemented experience using the tools actually available.
+Verify the implemented experience by following the process and report format in `.github/agents/ui-quality.agent.md`.
 
-Check the primary flow and important states, then responsive behaviour, accessibility and visual consistency. Record concrete evidence and distinguish what was verified from what remains unverified.
-
-Never imply browser, build or test success without observed results.
+Prefer running this with the UI Quality agent selected, so the review isn't shaped by the conversation that built the change.

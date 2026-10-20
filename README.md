@@ -49,15 +49,18 @@ Use separate agents only when the work benefits from clear boundaries or indepen
 
 ## Repository contents
 
-- `AGENTS.md` — shared instructions for AI coding assistants
-- `docs/WORKFLOW.md` — the end-to-end operating workflow
+- `AGENTS.md` — shared instructions for AI coding assistants, including the Project specifics to fill in
+- `docs/WORKFLOW.md` — the end-to-end workflow, status values and severity scale
+- `.agents/skills/` — tool-agnostic skills: detailed procedures loaded when a task matches
+- `.github/` — GitHub Copilot instructions, agents and prompts, plus the pull request template
+- `.opencode/agents/` — OpenCode agents
 
-Platform-specific agent files, prompts, skills and tool integrations should be added when they solve a demonstrated need and can be maintained.
+See `docs/FILE-MAP.md` for every file. Add further agents, prompts, skills or integrations only when they solve a demonstrated need and can be maintained.
 
 ## Getting started
 
 1. Read `AGENTS.md` and `docs/WORKFLOW.md`.
-2. Adapt commands, design-system references, test procedures and repository conventions to the host project.
+2. Copy the toolkit files into the host project and fill in the Project specifics table in `AGENTS.md`: commands, design-system paths, breakpoints and design references.
 3. Choose a small, low-risk UI feature with clear acceptance criteria.
 4. Run the workflow end to end, including verification and human review.
 5. Record gaps and improve the toolkit based on evidence from the pilot.

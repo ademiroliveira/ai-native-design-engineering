@@ -1,5 +1,27 @@
 # Agent Operating Instructions
 
+## Project specifics
+
+Fill this in when adopting the toolkit. Use these values instead of guessing. If a value is blank, look for it in the repository and say where you found it; if you can't find it, say so rather than inventing a command or path.
+
+| Item | Value |
+|---|---|
+| Design system / component library | |
+| Design tokens | |
+| Storybook or component docs | |
+| Install dependencies | |
+| Run the app locally | |
+| Unit and component tests | |
+| End-to-end or browser tests | |
+| Lint and typecheck | |
+| Build | |
+| Breakpoints | |
+| Accessibility standard | WCAG 2.2 AA |
+| Supported browsers | |
+| Design references | |
+
+Also add the test, build and preview commands to the `bash` allow list in `.opencode/agents/ui-quality.md`, so the reviewer can run them without asking each time.
+
 ## Before changing anything
 
 1. Identify the user outcome and acceptance criteria.
@@ -59,6 +81,8 @@ Verify what can actually be verified in the environment. Use available tests, bu
 
 Never claim a check passed unless it was actually run. If a desired check is unavailable, say so and identify the remaining uncertainty.
 
+When opening a pull request, fill in `.github/pull_request_template.md`. List only checks that ran, each marked Verified, Partially verified or Unverified.
+
 ### Outcome
 
 Review the result against the original intent, acceptance criteria and user experience. Record meaningful gaps, follow-up work and lessons that should improve the toolkit.
@@ -73,3 +97,5 @@ Review the result against the original intent, acceptance criteria and user expe
 - Keep changes small and reversible.
 - Protect secrets, credentials and confidential product information.
 - Human approval is required for consequential external actions such as commit, push, merge, deployment or publishing when the host workflow requires it.
+
+Detailed procedures live in `.agents/skills/`. Use the matching skill when a task fits one — for example `accessibility-responsive-ui` for any user-facing UI change.

@@ -111,9 +111,17 @@ Possible evidence:
 
 Do not substitute an assumed tool for unavailable evidence. Clearly distinguish:
 
-- **Verified** — directly observed or tested
-- **Partially verified** — some relevant checks completed
-- **Unverified** — the environment did not permit the check
+- **Verified** — directly observed in the running product, or asserted by a test that ran
+- **Partially verified** — some relevant checks completed: only some states or viewports, automated checks only, or code reading only
+- **Unverified** — not checked; say why (for example, the environment did not permit the check)
+
+Rate each problem found:
+
+- **Blocker** — a user can't complete the task, loses data, or is locked out. This includes people using a keyboard, screen reader, zoom or a small screen.
+- **Major** — the task can be completed but is confusing or difficult, or the change misses an acceptance criterion, fails the project's accessibility standard, or departs from the design system.
+- **Minor** — polish or friction that doesn't affect completing the task.
+
+List Blockers first.
 
 Output: verification notes or evidence.
 

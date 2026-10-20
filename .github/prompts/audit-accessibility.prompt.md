@@ -1,5 +1,9 @@
 # Audit Accessibility
 
-Audit the target experience for semantic structure, accessible names and labels, keyboard navigation, focus visibility, contrast, state announcements, touch targets and responsive behaviour.
+Audit the target experience using `.agents/skills/accessibility-responsive-ui/SKILL.md`.
 
-Prioritise issues by severity and user impact. Distinguish verified findings from static-review assumptions and state what could not be checked.
+1. Confirm the scope: which screens or components, which states and which viewports. If none is given, use the changed UI, every important state and the breakpoints in `AGENTS.md`.
+2. Run every check group in the skill, using the tooling that is available.
+3. Report in the skill's format, Blockers first.
+
+State what could not be checked and why. Findings from code reading alone are at most Partially verified.
